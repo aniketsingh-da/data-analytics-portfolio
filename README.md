@@ -9,8 +9,8 @@ Includes **data pipelines, KPI calculations, dashboards, and actionable business
 
 ## 👨‍💼 About the Author
 
-**Aniket Singh** – Senior Data Analyst | Data Engineering & Business Analytics | Noida, India  
-📧 E.aniketsingh@gmail.com | 📞 +91 9084750280 | [LinkedIn](https://www.linkedin.com/in/aniketsingh-da)  
+**Aniket Singh** – Senior Data Analyst | Data Engineering & Business Analytics |  
+📧 E.aniketsingh@gmail.com | 📞 +91 9084750280 | [LinkedIn](https://www.linkedin.com/in/aniket-singh-analyst/)  
 
 Experienced in **designing scalable ETL pipelines, distributed analytics platforms, and BI dashboards** using SQL, Python, Apache Spark, Hadoop, and cloud platforms (AWS, Azure, Snowflake). Skilled in **data governance, KPI reporting, and business decision support systems**.
 
@@ -76,4 +76,4 @@ Experienced in **designing scalable ETL pipelines, distributed analytics platfor
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/aniketsingh-da/data-analytics-portfolio.git
+https://github.com/aniketsingh-da/data-analytics-portfolio.git
