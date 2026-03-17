@@ -1,0 +1,136 @@
+[2025-07-22 23:01:22] Starting Redshift load operation...
+[2025-07-22 23:02:25] Error during Redshift load operation:
+[2025-07-22 23:02:25] connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.40.148), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.29.42), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.3.38), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-22 23:02:25] Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 15, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.40.148), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.29.42), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (172.31.3.38), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+[2025-07-22 23:02:25] Connection was not open or could not be closed.
+[2025-07-22 23:14:05] Starting Redshift load operation...
+[2025-07-22 23:14:27] Error during Redshift load operation:
+[2025-07-22 23:14:27] connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-07-22 23:14:27] Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 15, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+[2025-07-22 23:14:27] Connection was not open or could not be closed.
+Error during Redshift load operation:
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 8, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+Error during Redshift load operation:
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 8, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+Error during Redshift load operation:
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 8, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+Error during Redshift load operation:
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 8, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+Error during Redshift load operation:
+connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+Traceback (most recent call last):
+  File "C:\Users\lenovo\Desktop\run_copy_redshift.py", line 8, in <module>
+    conn = psycopg2.connect(
+        dbname='dev',
+    ...<3 lines>...
+        port='5439'
+    )
+  File "C:\Python313\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "analytics-wg.932446864230.eu-north-1.redshift-serverless.amazonaws.com" (51.20.111.43), port 5439 failed: Connection timed out (0x0000274C/10060)
+	Is the server running on that host and accepting TCP/IP connections?
+
+
+Data loaded successfully into pharma_patient_data.
+Data loaded successfully into pharma_patient_data.
+Data loaded successfully into pharma_patient_data.
+Data loaded successfully into pharma_patient_data.
+Data loaded successfully into pharma_patient_data.

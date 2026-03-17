@@ -1,0 +1,38 @@
+Sub Button3_Click()
+    Dim pythonExe As String
+    Dim uploadScriptPath As String
+    Dim copyScriptPath As String
+    Dim retVal As Long
+    Dim filePath As String
+
+    ' Exact file path to the CSV you want to upload
+    filePath = "C:\Users\lenovo\Downloads\pharma_patient_hcp_sample_50.csv"
+
+    ' Python executable path
+    pythonExe = "C:\Python313\python.exe"
+
+    ' Full paths to your Python scripts
+    uploadScriptPath = "C:\Users\lenovo\Desktop\upload_excel_to_s3.py"
+    copyScriptPath = "C:\Users\lenovo\Desktop\run_copy_redshift.py"
+
+    ' Run the upload script with the filePath argument
+    retVal = Shell(pythonExe & " " & Chr(34) & uploadScriptPath & Chr(34) & " " & Chr(34) & filePath & Chr(34), vbNormalFocus)
+
+    If retVal <> 0 Then
+        MsgBox "Upload started successfully!", vbInformation
+    Else
+        MsgBox "Failed to start upload.", vbCritical
+        Exit Sub
+    End If
+
+    ' Optional: Add a delay here to ensure upload finishes, or improve by checking completion
+
+    ' Now run the Redshift COPY script — no need to pass filePath if script has hardcoded S3 path
+    retVal = Shell(pythonExe & " " & Chr(34) & copyScriptPath & Chr(34), vbNormalFocus)
+
+    If retVal <> 0 Then
+        MsgBox "COPY to Redshift started successfully!", vbInformation
+    Else
+        MsgBox "Failed to start COPY to Redshift.", vbCritical
+    End If
+End Sub
