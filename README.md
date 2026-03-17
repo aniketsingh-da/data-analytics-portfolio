@@ -27,16 +27,36 @@ Includes **data pipelines, KPI calculations, dashboards, and actionable business
 ---
 
 ## 🗂 Folder Structure
-/sql-code → SQL scripts for all pipeline layers (LDG, STG, FACT, INT, MDM, BUS, RPT)
-/PowerBI → Power BI dashboards (PBIX files)
-/Excel-to-S3-Redshift → Python ETL scripts for Excel/CSV → S3 → Redshift
-/docs → PDFs documenting dashboards, analyses, and business insights
-/docs/screenshots → Images of dashboards and reports
-/sample_data → Example CSV files for testing pipelines
-/VBA → VBA macros and scripts
-.gitignore → Git ignore file
-LICENSE → MIT License
-README.md → This file
+
+- 📁 `/sql-code`  
+  SQL scripts for all pipeline layers (LDG, STG, FACT, INT, MDM, BUS, RPT)
+
+- 📁 `/PowerBI`  
+  Power BI dashboards (PBIX files)
+
+- 📁 `/Excel-to-S3-Redshift`  
+  Python ETL scripts for Excel/CSV → S3 → Redshift
+
+- 📁 `/docs`  
+  PDFs documenting dashboards, analyses, and business insights
+
+- 📁 `/docs/screenshots`  
+  Images of dashboards and reports
+
+- 📁 `/sample_data`  
+  Example CSV files for testing pipelines
+
+- 📁 `/VBA`  
+  VBA macros and scripts
+
+- 📄 `.gitignore`  
+  Git ignore file
+
+- 📄 `LICENSE`  
+  MIT License
+
+- 📄 `README.md`  
+  This file
 
 
 ---
@@ -54,4 +74,4 @@ README.md → This file
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/aniketsingh-da/data-analytics-portfolio.git
+https://github.com/aniketsingh-da/data-analytics-portfolio.git
