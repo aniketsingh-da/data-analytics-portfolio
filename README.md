@@ -1,6 +1,6 @@
 # 📊 Data Analytics Portfolio
 
-![Advanced SQL](https://img.shields.io/badge/Advanced_SQL-Orange) ![Advanced Excel](https://img.shields.io/badge/Advanced_Excel-Green) ![Python](https://img.shields.io/badge/Python-Blue) ![Power BI](https://img.shields.io/badge/PowerBI-LightBlue) ![Azure](https://img.shields.io/badge/Azure-LightSkyBlue)
+![Advanced SQL](https://img.shields.io/badge/Advanced_SQL-Orange) ![Advanced Excel](https://img.shields.io/badge/Advanced_Excel-Green) ![Python](https://img.shields.io/badge/Python-Blue) ![Power BI](https://img.shields.io/badge/PowerBI-LightBlue) ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-LightSkyBlue)
 
 A collection of **end-to-end data analytics projects** demonstrating expertise in **SQL, Python, Power BI, and Azure**.  
 Includes **data pipelines, KPI calculations, dashboards, and actionable business insights** across real-world scenarios in **healthcare, pharma, finance, and commercial analytics**.
